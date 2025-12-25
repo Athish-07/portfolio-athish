@@ -34,15 +34,6 @@ function Skills() {
           </div>
 
           <div className="skill-card">
-            <h4>Messaging & Servers</h4>
-            <ul>
-              <li>IBM MQ</li>
-              <li>WebLogic</li>
-              <li>WebSphere</li>
-            </ul>
-          </div>
-
-          <div className="skill-card">
             <h4>Tools & OS</h4>
             <ul>
               <li>Linux</li>

@@ -9,10 +9,16 @@ function Contact() {
 
         <div className="contact-links">
           <a href="mailto:athishharis02@gmail.com">Email</a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
-            GitHub
+
+          <a href="tel:+916383131516">
+            Contact
           </a>
-          <a href="https://www.linkedin.com/in/haris-athish-17505523b" target="_blank" rel="noreferrer">
+
+          <a
+            href="https://www.linkedin.com/in/haris-athish-17505523b"
+            target="_blank"
+            rel="noreferrer"
+          >
             LinkedIn
           </a>
         </div>

@@ -6,6 +6,8 @@ function Header({ theme, toggleTheme }) {
 
   return (
         <header className="header">
+          
+          
         <div>
             <span className="name">Haris Athish</span>
         </div>
