@@ -38,7 +38,7 @@ function Projects() {
           </p>
           <span className="tech">Java · Spring Boot · WebSocket · STOMP · Lombok</span>
           <div className="project-links">
-            <a href="https://github.com/Athish-07/MyProjects" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://github.com/Athish-07/ChatAppv2.0" target="_blank" rel="noreferrer">GitHub ↗</a>
           </div>
         </div>
 
