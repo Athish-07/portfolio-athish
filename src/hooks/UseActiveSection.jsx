@@ -1,7 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function useActiveSection(sectionIds) {
   const [active, setActive] = useState("");
+  // Stable ref so the array never triggers re-runs of useEffect
+  const idsRef = useRef(sectionIds);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -13,18 +15,18 @@ export default function useActiveSection(sectionIds) {
         });
       },
       {
-        rootMargin: "-30% 0px -40% 0px",
+        rootMargin: "-20% 0px -60% 0px",
         threshold: 0,
       }
     );
 
-    sectionIds.forEach((id) => {
+    idsRef.current.forEach((id) => {
       const el = document.getElementById(id);
       if (el) observer.observe(el);
     });
 
     return () => observer.disconnect();
-  }, [sectionIds]);
+  }, []); // stable — no dependency on sectionIds array
 
   return active;
 }

@@ -1,25 +1,20 @@
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
 
-      {/* ✅ ONLY ADDITION: image container */}
-      <div className="hero-image">
-        <img
-          src="/profile.jpg.jpeg"
-          alt="Haris Athish"
-        />
-      </div>
-
-      {/* EXISTING CODE — UNCHANGED */}
       <div className="hero-content">
+        <p className="hero-location">📍 Chennai, India</p>
+
         <h1>
-          Hi, I’m <span className="accent">Haris Athish</span>
+          Hi, I&apos;m <span className="accent">Haris Athish</span>
         </h1>
 
-        <h2>Java Backend & Full-Stack Developer</h2>
+        <h2>Java Full Stack Developer</h2>
 
         <p>
-          Building reliable backend systems and modern web applications.
+          2+ years building and supporting production-grade banking systems.
+          I write clean backend services with Spring Boot and build
+          interfaces with React.
         </p>
 
         <div className="hero-actions">
@@ -44,6 +39,14 @@ function Hero() {
             <span>Resume &nbsp;⤓</span>
           </a>
         </div>
+      </div>
+
+      <div className="hero-image">
+        <img
+          src="/profile.jpg.jpeg"
+          alt="Haris Athish — Java Full Stack Developer"
+          loading="lazy"
+        />
       </div>
 
     </section>

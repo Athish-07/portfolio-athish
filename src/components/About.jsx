@@ -1,23 +1,28 @@
 function About() {
   return (
-    
     <section className="about" id="about">
-        <h3>About</h3>
+      <h2>About</h2>
 
-        <p>
-          I’m a Java developer with around one year of experience working in
-          production support for large-scale banking systems. My work involves
-          understanding how real systems behave under load and how to keep them
-          stable.
-        </p>
+      <p>
+        I&apos;m a Java Full Stack Developer with 2+ years of hands-on experience
+        in production support for large-scale banking systems at a leading
+        financial services firm in Chennai. My work involves keeping
+        mission-critical systems stable, diagnosing failures under load, and
+        shipping reliable backend services.
+      </p>
 
-        <p>
-          I have hands-on experience with Java, Spring Boot, Linux, WebLogic, and
-          IBM MQ, and I enjoy building clean backend services with clear
-          responsibilities. Currently, I’m expanding into full-stack development
-          using React while strengthening my core Java and system design
-          fundamentals.
-        </p>
+      <p>
+        On the backend I work with Java, Spring Boot, JDBC, and REST API design.
+        On the infrastructure side I&apos;m comfortable with Linux administration,
+        WebLogic application server, IBM MQ message queues, and shell scripting
+        for automation. I&apos;m currently expanding into full-stack development
+        with React and deepening my system design knowledge.
+      </p>
+
+      <p>
+        I care about writing code that is readable, testable, and built with
+        clear separation of concerns — not just code that works.
+      </p>
     </section>
   );
 }
